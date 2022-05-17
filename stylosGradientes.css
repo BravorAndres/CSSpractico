@@ -1,0 +1,36 @@
+.gradiente{
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    position:relative;
+    margin: 10px 10px 10px 10px;
+    float:left;
+}
+
+#grad1{
+    background: linear-gradient(to left,red,blue);
+}
+
+#grad2{
+    background: linear-gradient(to left top, rgba(3, 19, 246, 0.953), rgb(26, 240, 119) 50%);
+}
+
+#grad3{
+   background: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet); 
+}
+
+#grad4{
+    background: radial-gradient(red,blue,black);
+}
+
+#grad5{
+    background: radial-gradient(circle farthest-corner at top left,red, blue,rgb(3, 39, 3));
+}
+
+#grad6{
+    background: repeating-radial-gradient(red,red 10%,rgba(28, 143, 243, 0.854) 10%,rgb(20, 173, 150) 20%);
+}
+
+#grad7{
+    background: repeating-linear-gradient(-45deg,yellow,yellow 10%,black 10%,black 20%);
+}

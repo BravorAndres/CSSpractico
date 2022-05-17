@@ -1,0 +1,15 @@
+
+
+.sectionLista{
+    /*  TODO: definir un estilo general de color o border universal para laslistas */
+}
+
+#listaTipo1{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+#listaTipo2{
+    list-style-image: none;
+    list-style-position: outside;
+}
