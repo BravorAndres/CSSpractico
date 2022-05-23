@@ -1,0 +1,53 @@
+
+
+.parrafoGeneral{
+    width: all;
+    height: 300px;
+    
+}
+
+#ParrafoPrincipal{
+    background-image: url('imagenes/atardecer.jpg');
+    background-size: contain;
+}
+
+.fondoPrincipal{
+   /* background-image: url("Imagenes/item2.jpg");*/
+   background-color: black;
+    background-size: 1000px;
+}
+
+.parrafo{
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    float: left;
+}
+
+#pr1{
+    background-image: url('imagenes/gafas.jpg');
+    background-size: 500px 400px;
+    background-repeat: no-repeat;
+}
+
+#pr2{
+    background-image: url('imagenes/molinos\ de\ viento.jpg');
+    background-size: 300px 250px;
+    background-repeat: repeat-x;
+}
+#pr3{
+    background-image: url('imagenes/programador\ .jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#pr4{
+    background-image: url('imagenes/atardecer.jpg');
+    background-size: auto;
+    background-attachment: fixed;
+}
+/*
+adcionalmente se usa la propiedad transform: translate(-50% -50%) u otros valores, para 
+modificar el tamaño de una imagen.
+
+transform: translateX(-50% ) : solo transforma la imagen en el eje X, tambein funciona para Y
+*/

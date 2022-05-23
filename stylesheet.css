@@ -10,6 +10,6 @@
 }
 
 #listaTipo2{
-    list-style-image: none;
+    list-style-image: url("Imagenes/item2.jpg");
     list-style-position: outside;
 }
