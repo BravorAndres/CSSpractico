@@ -1,0 +1,47 @@
+
+
+.sections{
+    height: 300px;
+    width: 600px;
+    box-shadow: 0 0 5px 5px gray;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.divs{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin: 1px;
+    float: left;
+}
+
+#sect1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sect2{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#sect3{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#sect4{
+    display: flex;
+    justify-content:flex-start;
+}
+
+#sect5{
+    display: flex;
+    justify-content: flex-end;
+}
+
