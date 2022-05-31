@@ -45,3 +45,21 @@
     justify-content: flex-end;
 }
 
+#div61{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#sect7{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#div71{
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal; 
+}
+
