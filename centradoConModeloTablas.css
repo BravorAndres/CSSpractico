@@ -1,0 +1,23 @@
+
+.envoltura-principal{
+    display: table;
+    vertical-align: center;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+.padre{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hijo{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
